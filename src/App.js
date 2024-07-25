@@ -51,10 +51,10 @@ function App() {
             <span className="footerLinks">
               <ul>
                 <li>
-                  <Link to="#work">Work</Link>
+                  <Link to="work">Work</Link>
                 </li>
                 <li>
-                  <Link to="#experience">Experience</Link>
+                  <Link to="experience">Experience</Link>
                 </li>
                 <li>
                   <Link to="mailto:hello@corwinharrell.com">Contact</Link>
