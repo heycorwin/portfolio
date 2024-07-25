@@ -240,16 +240,16 @@
       "description": "<p>Led product design for many of NEAR's core infrastructure products driving the launch of its network in 2020 including the NEAR Wallet, Block explorer, Token Staking, and the NEAR / Ethereum Rainbow Bridge.</p>"
     },
     {
-      "id": 3,
-      "duration": "2018 - 2020",
-      "title": "Product Design Lead at <a href=\"https://consensys.io/\" target=\"_blank\">ConsenSys</a>",
-      "description": "<p>Led Product Design for the Bounties Network platform, funded by ConsenSys.</p><p>ConsenSys is a globally distributed organization building the infrastructure and applications that enable the decentralized web, built on Ethereum.</p>"
-    },
-    {
       "id": 4,
       "duration": "2018 - 2020",
       "title": "Design Co-Founder at Bounties Network",
       "description": "<p>Product design, front-end development, user research, and design systems for Bounties Network: a global market of projects and talent empowering individuals all over the world to create and fulfill tasks, and transact in any token on Ethereum with automated payments.</p><p>I led design across the platform, including the redesign of the flagship Bounties Network Explorer product, earning an award for Best User Experience from panelists during Ethereum Devcon IV.</p>"
+    },
+    {
+      "id": 3,
+      "duration": "2018 - 2020",
+      "title": "Product Design Lead at <a href=\"https://consensys.io/\" target=\"_blank\">ConsenSys</a>",
+      "description": "<p>Led Product Design for the Bounties Network platform, funded by ConsenSys.</p><p>ConsenSys is a globally distributed organization building the infrastructure and applications that enable the decentralized web, built on Ethereum.</p>"
     },
     {
       "id": 5,
