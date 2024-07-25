@@ -1,0 +1,263 @@
+@import "~@fontsource/inter/400.css"; /* Weight 400 */
+@import "~@fontsource/inter/600.css"; /* Weight 600 */
+
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Add box-sizing to include padding and border in the element's total width and height */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Theme Variables */
+
+:root {
+  /* Colors */
+  --bg-primary: #f6eeeb;
+  --bg-secondary: #ece2de;
+  --bg-primary--dark: #101010;
+  --bg-secondary--dark: #1c1b1b;
+
+  --text-primary: #6d5454;
+  --text-secondary: #7c6766;
+  --text-secondary--dark: #937e7c;
+
+  --violet-50: #d9d7fa;
+  --violet-100: #928ce0;
+  --violet-200: #8072d1;
+
+  --succulent-50: #ccd7cb;
+  --succulent-100: #8ead84;
+  --succulent-200: #71957a;
+
+  --amber: #e3a469;
+  --red: #f77a69;
+
+  /* Typography */
+  --base-font-family: "Inter", sans-serif;
+  --heading-font-family: "Rowan", sans-serif;
+
+  /* Font Sizes */
+  --font-size-14: 0.875rem;
+  --font-size-16: 1rem;
+  --font-size-18: 1.125rem;
+  --font-size-20: 1.25rem;
+  --font-size-24: 1.5rem;
+  --font-size-32: 2rem;
+  --font-size-40: 2.5rem;
+  --font-size-48: 3rem;
+  --font-size-56: 3.5rem;
+  --font-size-64: 4rem;
+  --font-size-96: 6rem;
+  --font-size-112: 7rem;
+
+  /* Spacing */
+  --spacing-4: 0.25rem;
+  --spacing-8: 0.5rem;
+  --spacing-12: 0.75rem;
+  --spacing-16: 1rem;
+  --spacing-24: 1.5rem;
+  --spacing-32: 2rem;
+  --spacing-40: 2.5rem;
+  --spacing-48: 3rem;
+  --spacing-56: 3.5rem;
+  --spacing-64: 4rem;
+  --spacing-72: 4.5rem;
+  --spacing-96: 6rem;
+  --spacing-128: 8rem;
+
+  /* Shadows */
+  --diffused-shadow-dark: 0px 103px 118px 0px rgba(71, 45, 45, 0.25),
+    0px 43.031px 49.298px 0px rgba(71, 45, 45, 0.18),
+    0px 23.006px 26.357px 0px rgba(71, 45, 45, 0.15),
+    0px 12.897px 14.775px 0px rgba(71, 45, 45, 0.13),
+    0px 6.85px 7.847px 0px rgba(71, 45, 45, 0.1),
+    0px 2.85px 3.265px 0px rgba(71, 45, 45, 0.07);
+
+  --diffused-shadow-light: 0px 100px 94px 0px rgba(71, 45, 45, 0.04),
+    0px 41.778px 39.271px 0px rgba(71, 45, 45, 0.03),
+    0px 22.336px 20.996px 0px rgba(71, 45, 45, 0.02),
+    0px 12.522px 11.77px 0px rgba(71, 45, 45, 0.02),
+    0px 6.65px 6.251px 0px rgba(71, 45, 45, 0.02),
+    0px 2.767px 2.601px 0px rgba(71, 45, 45, 0.01);
+}
+
+/* Base Typographic Styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rowan", sans-serif;
+  color: var(--text-primary);
+}
+
+p {
+  line-height: 1.5;
+}
+
+::selection {
+  background-color: var(--succulent-50);
+}

@@ -1,0 +1,287 @@
+{
+  "projects": [
+    {
+      "id": "near-dev",
+      "numeral": "01",
+      "title": "near.dev",
+      "summary": "The NEAR Developer Network was designed to provide a resource-rich and community-oriented experience to engage and support a growing developer ecosystem.",
+      "overview": "<p>Exploring, onboarding to, and building on a new technology platform comes with a whole host of challenges for new and experienced developers alike. Regardless of the framework or platform, software developers considering the use of a new technology for their own applications often share a set of distinct needs:</p><ol><li>Ways to effectively evaluate existing applications of a technology in order to judge its potential.</li><li>Practical avenues for hands-on learning to help them adapt to the essential developer experience.</li><li>High-quality developer tools and resources aimed at accelerating development, inspiring new ideas, and reducing the need to reinvent the wheel.</li><li>Reliable and responsive support for when they inevitably encounter challenges throughout their development journey.</li></ol><p>These insights inspired the team at Pagoda to design a new resource-rich and community-oriented experience to engage and support the developers of the NEAR Protocol ecosystem as they sought to innovate on top of its cutting-edge decentralized application development platform.</p>",
+      "role": "Lead Designer",
+      "team": "Pagoda",
+      "tags": [
+        "User Research",
+        "UI / UX",
+        "Prototyping",
+        "Front-End Development"
+      ],
+      "projectImages": [
+        {
+          "src": "/images/near-dev/editor.svg",
+          "alt": "A screenshot of the NEAR Developer Network editor.",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/profile-activity.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/profile-projects.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/community.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/discussions.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/navigation.png",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/components.png",
+          "alt": "",
+          "width": "half",
+          "position": "center",
+          "shadow": "none",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/documentation.svg",
+          "alt": "",
+          "width": "half",
+          "position": "bottom",
+          "shadow": "light",
+          "theme": "light"
+        }
+      ],
+      "featuredImage": {
+        "src": "/images/near-dev/spot.svg",
+        "alt": "A screenshot of the NEAR Developer Network editor."
+      }
+    },
+    {
+      "id": "kit",
+      "numeral": "02",
+      "title": "kit",
+      "summary": "Building on the success of the platform's first web-based crypto wallet, Kit aimed to offer a more secure and refined user experience to the users of NEAR Protocol.",
+      "overview": "<p>Before the official launch of the NEAR Protocol in 2020, the team at NEAR Inc. spent the year prior preparing the first NEAR Wallet for use on the live network.</p><p>With a focus on simplicity and accessibility, NEAR Wallet was designed to be accessible via web browsers, and facilitated the creation of millions of NEAR accounts during its lifespan, as well as activities critical to the network such as token staking and delegation.</p><p>As the platform matured and looked for ways to decentralize ownership of its core infrastructure, it explored a rebrand and spin-out of the NEAR Wallet product from the core protocol team.</p><p>Kit was conceptualized, prototyped and planned as an evolution of NEAR’s flagship crypto wallet, offering a greater degree of security via its implementation as a browser extension, and a more refined user experience.</p>",
+      "role": "Lead Designer",
+      "team": "Near Inc.",
+      "tags": [
+        "UI / UX",
+        "Prototyping",
+        "Brand & Identity",
+        "Design Systems",
+        "Product Management"
+      ],
+      "projectImages": [
+        {
+          "src": "/images/kit/account.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "dark"
+        },
+        {
+          "src": "/images/kit/send.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "dark"
+        },
+        {
+          "src": "/images/kit/transactions.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "dark"
+        },
+        {
+          "src": "/images/kit/nfts.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "dark"
+        },
+        {
+          "src": "/images/kit/components.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "dark"
+        }
+      ],
+      "featuredImage": {
+        "src": "/images/kit/spot.svg",
+        "alt": "A screenshot of the Kit crypto wallet extension."
+      }
+    },
+    {
+      "id": "fora",
+      "numeral": "03",
+      "title": "fora",
+      "summary": "As an evolution of the Bounties Network, fora would be a center for community-driven initiatives, decentralized collaboration, and incentivized action.",
+      "overview": "<p>The Bounties Network was one of the first projects built on the Ethereum platform to formally experiment with crypto incentives to drive community engagement, explore new ways for individuals to earn for their contributions, and to help project owners source talent from an emerging decentralized workforce.</p><p>After a series of successful experiments in partnership with projects like UNICEF Innovation, the team at Bounties Network looked to evolve the platform from a white-label testing environment into a fully fledged community platform where people from all over the web could share about their initiatives, collaborate, incentivize action, and earn for their participation. This next evolution was fora.</p>",
+      "role": "Design Co-Founder",
+      "team": "Bounties Network",
+      "tags": [
+        "UI / UX",
+        "Brand & Identity",
+        "Design Systems",
+        "Prototyping",
+        "Front-End Development"
+      ],
+      "projectImages": [
+        {
+          "src": "/images/bounties-network/home.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/brand.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/explorer.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/feed.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/browse-communities.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/mobile.png",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "none",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/community-profile.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/bounties-network/bounty-details.svg",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        }
+      ],
+      "featuredImage": {
+        "src": "/images/bounties-network/spot.svg",
+        "alt": "A screenshot of the NEAR Developer Network editor."
+      }
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "duration": "2022 - 2024",
+      "title": "Staff Product Designer at Pagoda",
+      "description": "<p>Product design, user research, and front-end development for a range of tools and experiences catered towards developers building on NEAR Protocol.</p><p>I helped establish repeatable and strategic processes for research and design, collaborated with executive leadership to strategize and prototype for key business initiatives, and was ultimately promoted to Staff.</p>"
+    },
+    {
+      "id": 2,
+      "duration": "2020 - 2022",
+      "title": "Senior Product Designer at NEAR",
+      "description": "<p>Led product design for many of NEAR's core infrastructure products driving the launch of its network in 2020 including the NEAR Wallet, Block explorer, Token Staking, and the NEAR / Ethereum Rainbow Bridge.</p>"
+    },
+    {
+      "id": 3,
+      "duration": "2018 - 2020",
+      "title": "Product Design Lead at ConsenSys",
+      "description": "<p>Led Product Design for the Bounties Network platform, funded by ConsenSys.</p><p>ConsenSys is a globally distributed organization building the infrastructure and applications that enable the decentralized web, built on Ethereum.</p>"
+    },
+    {
+      "id": 4,
+      "duration": "2018 - 2020",
+      "title": "Design Co-Founder at Bounties Network",
+      "description": "<p>Product design, front-end development, user research, and design systems for Bounties Network: a global market of projects and talent empowering individuals all over the world to create and fulfill tasks, and transact in any token on Ethereum with automated payments.</p><p>I led design across the platform, including the redesign of the flagship Bounties Network Explorer product, earning an award for Best User Experience from panelists during Ethereum Devcon IV.</p>"
+    },
+    {
+      "id": 5,
+      "duration": "2017 - 2018",
+      "title": "Senior Product Designer at Grubhub",
+      "description": "<p>Product Design for the Grubhub delivery platform, leading design efforts for restaurant logistics and order management as well as corporate initiatives focused on the refinement of the platform experience for high-volume and corporate clients.</p><p>With more than 75,000 takeout restaurants in over 1,100 U.S. cities, Grubhub provides the nation's leading online and mobile food ordering service.</p>"
+    },
+    {
+      "id": 6,
+      "duration": "2016 - 2017",
+      "title": "Senior Product Designer at Zoomer",
+      "description": "<p>User Research and User Experience design for Zoomer: building a unique delivery as a service platform which facilitated 4 million individual deliveries by nearly 6,000 contract delivery drivers across 18 markets.</p><p>Zoomer raised over $30m in venture capital across multiple rounds and was backed by Y Combinator (S14), as well as leading early stage investors such as Foundation Capital, First Round Capital, SV Angel, Data Collective and others. Acquired in 2017.</p>"
+    },
+    {
+      "id": 7,
+      "duration": "2014 - 2016",
+      "title": "Product Designer at thoughtbot",
+      "description": "<p>Web and mobile application design and development for a range of clients from early stage startups to Fortune 500 enterprises and non-profits. Responsibilities included design sprint facilitation, UX/UI design, user research, usability testing, and front-end development for clients like Legendary, Ello, and Tile.</p>"
+    },
+    {
+      "id": 8,
+      "duration": "2013",
+      "title": "Design Apprentice at Viget Labs",
+      "description": "<p>One of 2 design apprentices selected from 417 applicants for the 2013 apprenticeship program of Viget Labs. Supported the Viget design team and contributed to both internal and client based projects from web and mobile applications to game design.</p>"
+    }
+  ]
+}
