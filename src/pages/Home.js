@@ -150,7 +150,16 @@ const Experience = styled.section`
 
   .jobTitle {
     color: var(--text-primary);
-    font-weight: 500;
+    font-weight: 550;
+
+    a {
+      color: var(--text-primary);
+      letter-spacing: -0.25px;
+
+      &:hover {
+        color: var(--text-secondary);
+      }
+    }
   }
 
   p {
@@ -208,7 +217,10 @@ const Home = () => {
             <li key={exp.id} className="resumeItem">
               <span className="jobDuration">{exp.duration}</span>
               <span className="job">
-                <span className="jobTitle">{exp.title}</span>
+                <span
+                  className="jobTitle"
+                  dangerouslySetInnerHTML={{ __html: exp.title }}
+                />
                 <div
                   className="jobDescription"
                   dangerouslySetInnerHTML={{ __html: exp.description }}

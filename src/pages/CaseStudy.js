@@ -150,6 +150,8 @@ const ImageContainer = styled.div`
       ? "var(--bg-secondary)"
       : props.theme === "dark"
       ? "var(--bg-primary--dark)"
+      : props.theme === "white"
+      ? "white"
       : "none"};
   padding-top: ${(props) =>
     props.shadow === "none" ? "var(--spacing-96)" : "var(--spacing-64)"};

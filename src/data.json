@@ -17,7 +17,7 @@
       "projectImages": [
         {
           "src": "/images/near-dev/editor.svg",
-          "alt": "A screenshot of the NEAR Developer Network editor.",
+          "alt": "A NEAR Developer Network editor-based tutorial experience.",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -66,18 +66,10 @@
         {
           "src": "/images/near-dev/components.png",
           "alt": "",
-          "width": "half",
+          "width": "full",
           "position": "center",
           "shadow": "none",
-          "theme": "light"
-        },
-        {
-          "src": "/images/near-dev/documentation.svg",
-          "alt": "",
-          "width": "half",
-          "position": "bottom",
-          "shadow": "light",
-          "theme": "light"
+          "theme": "white"
         }
       ],
       "featuredImage": {
@@ -238,19 +230,19 @@
     {
       "id": 1,
       "duration": "2022 - 2024",
-      "title": "Staff Product Designer at Pagoda",
-      "description": "<p>Product design, user research, and front-end development for a range of tools and experiences catered towards developers building on NEAR Protocol.</p><p>I helped establish repeatable and strategic processes for research and design, collaborated with executive leadership to strategize and prototype for key business initiatives, and was ultimately promoted to Staff.</p>"
+      "title": "Staff Product Designer at <a href=\"https://www.pagoda.co/\" target=\"_blank\">Pagoda</a>",
+      "description": "<p>Product design, user research, and front-end development for a range of tools and experiences catered towards developers building on NEAR Protocol.</p><p>I helped establish repeatable and strategic processes for research and design and collaborated with executive leadership to strategize, consult, and prototype for key business initiatives.</p>"
     },
     {
       "id": 2,
       "duration": "2020 - 2022",
-      "title": "Senior Product Designer at NEAR",
+      "title": "Senior Product Designer at <a href=\"https://near.org/\" target=\"_blank\">NEAR</a>",
       "description": "<p>Led product design for many of NEAR's core infrastructure products driving the launch of its network in 2020 including the NEAR Wallet, Block explorer, Token Staking, and the NEAR / Ethereum Rainbow Bridge.</p>"
     },
     {
       "id": 3,
       "duration": "2018 - 2020",
-      "title": "Product Design Lead at ConsenSys",
+      "title": "Product Design Lead at <a href=\"https://consensys.io/\" target=\"_blank\">ConsenSys</a>",
       "description": "<p>Led Product Design for the Bounties Network platform, funded by ConsenSys.</p><p>ConsenSys is a globally distributed organization building the infrastructure and applications that enable the decentralized web, built on Ethereum.</p>"
     },
     {
@@ -262,8 +254,8 @@
     {
       "id": 5,
       "duration": "2017 - 2018",
-      "title": "Senior Product Designer at Grubhub",
-      "description": "<p>Product Design for the Grubhub delivery platform, leading design efforts for restaurant logistics and order management as well as corporate initiatives focused on the refinement of the platform experience for high-volume and corporate clients.</p><p>With more than 75,000 takeout restaurants in over 1,100 U.S. cities, Grubhub provides the nation's leading online and mobile food ordering service.</p>"
+      "title": "Senior Product Designer at <a href=\"https://www.grubhub.com/\" target=\"_blank\">Grubhub</a>",
+      "description": "<p>Product Design for the Grubhub delivery platform, leading design efforts for restaurant logistics and order management as well as corporate initiatives for high-volume and corporate clients.</p><p>With more than 75,000 takeout restaurants in over 1,100 U.S. cities, Grubhub provides the nation's leading online and mobile food ordering service.</p>"
     },
     {
       "id": 6,
@@ -274,13 +266,13 @@
     {
       "id": 7,
       "duration": "2014 - 2016",
-      "title": "Product Designer at thoughtbot",
+      "title": "Product Designer at <a href=\"https://thoughtbot.com/\" target=\"_blank\">thoughtbot</a>",
       "description": "<p>Web and mobile application design and development for a range of clients from early stage startups to Fortune 500 enterprises and non-profits. Responsibilities included design sprint facilitation, UX/UI design, user research, usability testing, and front-end development for clients like Legendary, Ello, and Tile.</p>"
     },
     {
       "id": 8,
       "duration": "2013",
-      "title": "Design Apprentice at Viget Labs",
+      "title": "Design Apprentice at <a href=\"https://www.viget.com/\" target=\"_blank\">Viget Labs</a>",
       "description": "<p>One of 2 design apprentices selected from 417 applicants for the 2013 apprenticeship program of Viget Labs. Supported the Viget design team and contributed to both internal and client based projects from web and mobile applications to game design.</p>"
     }
   ]
