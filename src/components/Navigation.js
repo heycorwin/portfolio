@@ -48,13 +48,13 @@ const Navigation = () => (
   <Nav>
     <ul>
       <li>
-        <a href="#work">Work</a>
+        <Link href="#work">Work</Link>
       </li>
       <li>
-        <a href="#experience">Experience</a>
+        <Link href="#experience">Experience</Link>
       </li>
       <li>
-        <a href="mailto:hello@corwinharrell.com">Contact</a>
+        <Link href="mailto:hello@corwinharrell.com">Contact</Link>
       </li>
     </ul>
   </Nav>

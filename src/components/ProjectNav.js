@@ -95,9 +95,9 @@ const ProjectNav = ({ project }) => (
   <Nav>
     <ol>
       <li>
-        <a className="backLink" href="/">
+        <Link className="backLink" href="/">
           Home
-        </a>
+        </Link>
       </li>
       <span>/</span>
       <li>
