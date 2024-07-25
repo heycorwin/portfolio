@@ -51,29 +51,29 @@ function App() {
             <span className="footerLinks">
               <ul>
                 <li>
-                  <Link href="#work">Work</Link>
+                  <Link to="#work">Work</Link>
                 </li>
                 <li>
-                  <Link href="#experience">Experience</Link>
+                  <Link to="#experience">Experience</Link>
                 </li>
                 <li>
-                  <Link href="mailto:hello@corwinharrell.com">Contact</Link>
+                  <Link to="mailto:hello@corwinharrell.com">Contact</Link>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <Link href="https://twitter.com/heycorwin" target="_blank">
+                  <Link to="https://twitter.com/heycorwin" target="_blank">
                     Twitter
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://github.com/heycorwin" target="_blank">
+                  <Link to="https://github.com/heycorwin" target="_blank">
                     Github
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="https://www.linkedin.com/in/corwinharrell/"
+                    to="https://www.linkedin.com/in/corwinharrell/"
                     target="_blank"
                   >
                     LinkedIn

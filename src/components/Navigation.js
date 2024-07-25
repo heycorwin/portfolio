@@ -49,13 +49,13 @@ const Navigation = () => (
   <Nav>
     <ul>
       <li>
-        <Link href="#work">Work</Link>
+        <Link to="#work">Work</Link>
       </li>
       <li>
-        <Link href="#experience">Experience</Link>
+        <Link to="#experience">Experience</Link>
       </li>
       <li>
-        <Link href="mailto:hello@corwinharrell.com">Contact</Link>
+        <Link to="mailto:hello@corwinharrell.com">Contact</Link>
       </li>
     </ul>
   </Nav>

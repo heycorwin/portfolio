@@ -199,9 +199,9 @@ const Home = () => {
       <Experience id="experience">
         <header>
           <h2>Experience</h2>
-          <a href="https://www.linkedin.com/in/corwinharrell/" target="_blank">
+          <Link to="https://www.linkedin.com/in/corwinharrell/" target="_blank">
             View on LinkedIn
-          </a>
+          </Link>
         </header>
         <ol>
           {data.experience.map((exp) => (
