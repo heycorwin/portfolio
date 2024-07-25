@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "./styles/globalStyles.css";
 import styled from "styled-components";
 import Home from "./pages/Home";
@@ -51,10 +52,14 @@ function App() {
             <span className="footerLinks">
               <ul>
                 <li>
-                  <a href="#work">Work</a>
+                  <Link smooth to="#work">
+                    Work
+                  </Link>
                 </li>
                 <li>
-                  <a href="#experience">Experience</a>
+                  <Link smooth to="#experience">
+                    Experience
+                  </Link>
                 </li>
                 <li>
                   <Link to="mailto:hello@corwinharrell.com">Contact</Link>

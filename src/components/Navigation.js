@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import styled from "styled-components";
 
 const Nav = styled.nav`
@@ -49,10 +50,14 @@ const Navigation = () => (
   <Nav>
     <ul>
       <li>
-        <a href="#work">Work</a>
+        <Link smooth to="#work">
+          Work
+        </Link>
       </li>
       <li>
-        <a href="#experience">Experience</a>
+        <Link smooth to="#experience">
+          Experience
+        </Link>
       </li>
       <li>
         <Link to="mailto:hello@corwinharrell.com">Contact</Link>
