@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f7e2fdf4.css",
+    "main.js": "/portfolio/static/js/main.458b9b06.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/inter-latin-ext-600-normal.woff": "/portfolio/static/media/inter-latin-ext-600-normal.1b4b5615c2cc1d3b3562.woff",
+    "static/media/inter-latin-ext-400-normal.woff": "/portfolio/static/media/inter-latin-ext-400-normal.40b3b0d5e09a90fb6e3e.woff",
+    "static/media/inter-latin-ext-600-normal.woff2": "/portfolio/static/media/inter-latin-ext-600-normal.862bc70ae0a0695770e7.woff2",
+    "static/media/inter-latin-600-normal.woff": "/portfolio/static/media/inter-latin-600-normal.42ce943388c4ff9a05a1.woff",
+    "static/media/inter-latin-ext-400-normal.woff2": "/portfolio/static/media/inter-latin-ext-400-normal.0f9e8d4e940df8f6edfe.woff2",
+    "static/media/inter-latin-400-normal.woff": "/portfolio/static/media/inter-latin-400-normal.08a02fd275ecea6ef662.woff",
+    "static/media/inter-latin-600-normal.woff2": "/portfolio/static/media/inter-latin-600-normal.5d2eaa33f8194c062cad.woff2",
+    "static/media/inter-latin-400-normal.woff2": "/portfolio/static/media/inter-latin-400-normal.f1535355a7df553be385.woff2",
+    "static/media/inter-cyrillic-ext-600-normal.woff": "/portfolio/static/media/inter-cyrillic-ext-600-normal.55bbeb2a455ee4d261df.woff",
+    "static/media/inter-cyrillic-ext-400-normal.woff": "/portfolio/static/media/inter-cyrillic-ext-400-normal.cd2ad378115f549d3c5b.woff",
+    "static/media/inter-greek-600-normal.woff": "/portfolio/static/media/inter-greek-600-normal.a797c6df2a7f3307ec14.woff",
+    "static/media/inter-greek-400-normal.woff": "/portfolio/static/media/inter-greek-400-normal.1eeaf1d0bde712085ffc.woff",
+    "static/media/inter-cyrillic-ext-600-normal.woff2": "/portfolio/static/media/inter-cyrillic-ext-600-normal.0b74aa87abece70366c1.woff2",
+    "static/media/inter-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/inter-cyrillic-ext-400-normal.ac62c8eba7f954b48546.woff2",
+    "static/media/inter-cyrillic-600-normal.woff": "/portfolio/static/media/inter-cyrillic-600-normal.b42ff4f76286c2718c6a.woff",
+    "static/media/inter-cyrillic-400-normal.woff": "/portfolio/static/media/inter-cyrillic-400-normal.fa67b2dd0048a5433bd5.woff",
+    "static/media/inter-greek-600-normal.woff2": "/portfolio/static/media/inter-greek-600-normal.63a3bb0067edaf8596bc.woff2",
+    "static/media/inter-greek-400-normal.woff2": "/portfolio/static/media/inter-greek-400-normal.be0e76b30a7663adf9eb.woff2",
+    "static/media/inter-greek-ext-600-normal.woff": "/portfolio/static/media/inter-greek-ext-600-normal.4cc5eccdc5c999a2f26d.woff",
+    "static/media/inter-greek-ext-400-normal.woff": "/portfolio/static/media/inter-greek-ext-400-normal.708f2f7425851a3b7633.woff",
+    "static/media/inter-cyrillic-600-normal.woff2": "/portfolio/static/media/inter-cyrillic-600-normal.e3bd0ea116d26368ddb7.woff2",
+    "static/media/inter-vietnamese-600-normal.woff": "/portfolio/static/media/inter-vietnamese-600-normal.dd25e4776efe42c2253f.woff",
+    "static/media/inter-cyrillic-400-normal.woff2": "/portfolio/static/media/inter-cyrillic-400-normal.fa78d8d6788399bf6527.woff2",
+    "static/media/inter-vietnamese-400-normal.woff": "/portfolio/static/media/inter-vietnamese-400-normal.6eab7f5e6cae783b49bf.woff",
+    "static/media/inter-greek-ext-600-normal.woff2": "/portfolio/static/media/inter-greek-ext-600-normal.4191c49f85cf8d80a464.woff2",
+    "static/media/inter-greek-ext-400-normal.woff2": "/portfolio/static/media/inter-greek-ext-400-normal.1e2b9039d9ecdbea5d80.woff2",
+    "static/media/inter-vietnamese-600-normal.woff2": "/portfolio/static/media/inter-vietnamese-600-normal.f5d386a9b66422144df3.woff2",
+    "static/media/inter-vietnamese-400-normal.woff2": "/portfolio/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.f7e2fdf4.css.map": "/portfolio/static/css/main.f7e2fdf4.css.map",
+    "main.458b9b06.js.map": "/portfolio/static/js/main.458b9b06.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e2fdf4.css",
+    "static/js/main.458b9b06.js"
+  ]
+}
