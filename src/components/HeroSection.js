@@ -54,7 +54,7 @@ const Hero = styled.section`
 
   h1 {
     position: relative;
-    font-size: var(--font-size-56);
+    font-size: 30px;
     font-weight: 350;
     color: var(--text-primary);
     letter-spacing: -2px;
@@ -62,6 +62,22 @@ const Hero = styled.section`
     word-spacing: 0.1em;
     font-feature-settings: "salt" on;
     max-width: 900px;
+
+    @media (min-width: 480px) {
+      font-size: var(--font-size-40);
+    }
+
+    @media (min-width: 768px) {
+      font-size: var(--font-size-48);
+    }
+
+    @media (min-width: 992px) {
+      font-size: var(--font-size-56);
+    }
+
+    @media (min-width: 1200px) {
+      font-size: var(--font-size-56);
+    }
   }
 `;
 
