@@ -8,20 +8,33 @@ const Nav = styled.nav`
   flex-direction: row;
   top: 0;
   font-weight: 450;
-  padding-top: var(--spacing-48);
-  margin-left: calc(var(--spacing-16) * -1);
   font-size: var(--font-size-16);
+  padding-top: var(--spacing-32);
+
+  @media (min-width: 480px) {
+    margin-left: calc(var(--spacing-16) * -1);
+  }
 
   &::before {
     content: "/";
-    display: inline-block;
+    display: none;
     margin-right: var(--spacing-12);
     padding: 4px 0;
+
+    @media (min-width: 480px) {
+      display: inline-block;
+    }
   }
 
   ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: var(--spacing-16);
+
+    @media (min-width: 480px) {
+      flex-direction: column;
+      gap: 0;
+    }
 
     &:hover li {
       opacity: 0.5;

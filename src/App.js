@@ -7,23 +7,25 @@ import Home from "./pages/Home";
 import CaseStudy from "./pages/CaseStudy";
 
 const AppContainer = styled.div`
-  // Your App container styles here
+  display: flex;
+  flex-direction: column;
 `;
 
 const Footer = styled.footer`
-  padding: var(--spacing-48);
+  padding: var(--spacing-24);
 
   .footerWrapper {
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     display: flex;
+    flex-direction: column-reverse;
     max-width: 1400px;
-    margin: 0 auto;
+    gap: var(--spacing-48);
   }
 
   .footerLinks {
     display: flex;
-    gap: var(--spacing-64);
+    gap: var(--spacing-48);
   }
 
   a {

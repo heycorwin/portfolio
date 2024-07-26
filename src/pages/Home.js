@@ -8,63 +8,65 @@ const FeaturedWork = styled.section`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 100px 0 150px;
-  gap: 150px;
-  width: 100%;
-  max-width: 1400px;
+  gap: var(--spacing-128);
+  padding: var(--spacing-128) 0;
 `;
 
 const Project = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0 var(--spacing-96);
-  gap: var(--spacing-24);
+  flex-direction: column;
 
   &:nth-child(odd) {
-    flex-direction: row-reverse;
   }
 
   &:first-child .numeral {
     top: var(--spacing-12);
   }
 
-  &:nth-child(2) { margin-left: -100px;
+  &:nth-child(2) {
+  }
 `;
 
-const FeaturedImageWrapper = styled.div`
+const FeaturedImageContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
-`;
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-bottom: -50px;
 
-const FeaturedImage = styled.img`
-  width: 100%;
-  object-fit: contain;
+  img {
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+  }
 
   &.near-dev {
-    margin-bottom: -175px;
+    img {
+      right: -15px;
+    }
   }
 
   &.kit {
-    width: 70%;
-    margin-bottom: -150px;
-    margin-right: -150px;
+    img {
+      right: 30px;
+      width: 70%;
+    }
   }
 
   &.fora {
-    margin-bottom: -150px;
   }
 `;
 
 const ProjectSummary = styled.div`
-  width: 40%;
-  padding-left: var(--spacing-40);
-  padding-top: var(--spacing-48);
+  padding: 0 var(--spacing-24);
   position: relative;
 
   .numeral {
+    display: none;
     color: var(--violet-100);
     left: 0;
     top: 0;
@@ -74,13 +76,17 @@ const ProjectSummary = styled.div`
     font-weight: 450;
     letter-spacing: 0;
     text-align: right;
+
+    @media (min-width: 480px) { display: block; }
   }
 
   h3 {
     max-width: 250px;
-    line-height: 1;font-size: var(--font-size-56);
+    line-height: 1;
+    font-size: 30px;
+    font-weight: 450;
     margin-bottom: var(--spacing-24);
-    letter-spacing: -2px;
+    letter-spacing: -1px;
   }
 
   p {
@@ -109,15 +115,15 @@ const ProjectSummary = styled.div`
 `;
 
 const Experience = styled.section`
-  max-width: 672px;
-  margin: 0 auto;
-  padding: var(--spacing-128) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-64);
+  padding: var(--spacing-128) var(--spacing-24);
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: var(--spacing-96);
 
     a {
       font-weight: 500;
@@ -132,20 +138,25 @@ const Experience = styled.section`
   }
 
   h2 {
-    font-size: var(--font-size-40);
+    font-size: 30px;
     font-weight: 450;
     letter-spacing: -0.5px;
   }
 
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-64);
+  }
+
   .resumeItem {
     display: flex;
-    margin: var(--spacing-64) 0;
-    gap: var(--spacing-64);
+    flex-direction: column;
   }
 
   .jobDuration {
     color: var(--text-secondary);
-    flex: 0 0 100px;
+    margin-bottom: var(--spacing-16);
   }
 
   .jobTitle {
@@ -189,13 +200,12 @@ const Home = () => {
       <FeaturedWork id="work">
         {data.projects.map((project, index) => (
           <Project key={index}>
-            <FeaturedImageWrapper>
-              <FeaturedImage
+            <FeaturedImageContainer className={project.id}>
+              <img
                 src={process.env.PUBLIC_URL + project.featuredImage.src}
                 alt={project.featuredImage.alt}
-                className={project.id}
               />
-            </FeaturedImageWrapper>
+            </FeaturedImageContainer>
             <ProjectSummary>
               <span className="numeral">{project.numeral}</span>
               <h3>{project.title}</h3>

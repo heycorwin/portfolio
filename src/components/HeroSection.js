@@ -4,16 +4,19 @@ import Navigation from "./Navigation";
 
 const flowerBookImageUrl = `${process.env.PUBLIC_URL}/images/flowerbook.png`;
 
-const HeroWrapper = styled.div`
-  max-width: 1200px;
+const Hero = styled.section`
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0 30%;
-  padding: 0 var(--spacing-24);
 `;
 
-const Hero = styled.section`
+const HeroImageContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
+  height: 450px;
+  overflow: hidden;
+  z-index: -999;
   will-change: transform; /* Optimize for animations */
 
   &::before,
@@ -24,41 +27,65 @@ const Hero = styled.section`
   &::before {
     content: "";
     position: absolute;
-    top: -25px;
-    left: -450px;
-    width: 95vh;
-    height: 95vh;
-    max-height: 1000px;
+    width: 425px;
+    height: 450px;
+    left: 0px;
+    bottom: 15px;
     background-image: url(${flowerBookImageUrl});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: auto;
     transform-origin: center;
-    z-index: -999;
     transform: translateY(${(props) => props.offsetY * -0.2}px) rotate(13deg);
+
+    @media (min-width: 480px) {
+      height: 95vh;
+      top: -25px;
+      left: -450px;
+    }
   }
 
   &::after {
     content: "";
     position: absolute;
-    top: 96vh;
-    left: -300px;
-    width: 55vh;
+    bottom: 0;
+    height: 50px;
     border-radius: 100%;
     background-color: #e1d5d0;
     z-index: -1000;
-    height: ${(props) => Math.max(25, 85 - props.offsetY * 0.15)}px;
-    opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.001)};
-    transform: translateX(${(props) => props.offsetY * -0.1}px);
+    transform-origin: center;
+    height: ${(props) => Math.max(0, 50 - props.offsetY * 0.15)}px;
+    width: ${(props) => Math.max(200, 300 - props.offsetY * 0.15)}px;
+    opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.0025)};
+
+    @media (min-width: 480px) {
+      transform: translateX(${(props) => props.offsetY * -0.1}px);
+    }
   }
+`;
+
+const HeroWrapper = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  padding: var(--spacing-24);
+  margin-top: var(--spacing-24);
+
+  @media (min-width: 480px) {
+    flex-direction: column;
+  }
+`;
+
+const HeroContent = styled.div`
+  display: flex;
+  flex-direction: column;
 
   h1 {
-    position: relative;
-    font-size: 30px;
-    font-weight: 350;
+    font-size: 28px;
+    font-weight: 400;
     color: var(--text-primary);
-    letter-spacing: -2px;
-    line-height: 1.2;
+    letter-spacing: -1px;
+    line-height: 1.3;
     word-spacing: 0.1em;
     font-feature-settings: "salt" on;
     max-width: 900px;
@@ -74,19 +101,10 @@ const Hero = styled.section`
     @media (min-width: 992px) {
       font-size: var(--font-size-56);
     }
-
-    @media (min-width: 1200px) {
-      font-size: var(--font-size-56);
-    }
   }
-`;
-
-const HeroContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: 200px 0;
 
   a {
+    display: none;
     width: auto;
     font-weight: 500;
     font-size: var(--font-size-16);
@@ -94,6 +112,10 @@ const HeroContent = styled.div`
     color: var(--violet-100);
     letter-spacing: -0.25px;
     margin-top: var(--spacing-56);
+
+    @media (min-width: 480px) {
+      display: inline-block;
+    }
 
     &::after {
       content: "→";
@@ -112,7 +134,8 @@ const HeroContent = styled.div`
 
 const HeroSection = ({ offsetY }) => {
   return (
-    <Hero id="Hero" offsetY={offsetY}>
+    <Hero id="Hero">
+      <HeroImageContainer offsetY={offsetY} />
       <HeroWrapper>
         <Navigation />
         <HeroContent>

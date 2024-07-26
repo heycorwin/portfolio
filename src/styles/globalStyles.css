@@ -221,6 +221,8 @@ select {
   --spacing-96: 6rem;
   --spacing-128: 8rem;
 
+  --breakpoint-small: 390px;
+
   /* Shadows */
   --diffused-shadow-dark: 0px 103px 118px 0px rgba(71, 45, 45, 0.25),
     0px 43.031px 49.298px 0px rgba(71, 45, 45, 0.18),
