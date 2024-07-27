@@ -21,6 +21,11 @@ const Footer = styled.footer`
     flex-direction: column-reverse;
     max-width: 1400px;
     gap: var(--spacing-48);
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: flex-end;
+    }
   }
 
   .footerLinks {

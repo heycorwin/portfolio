@@ -11,8 +11,9 @@ const Nav = styled.nav`
   font-size: var(--font-size-16);
   padding-top: var(--spacing-32);
 
-  @media (min-width: 480px) {
-    margin-left: calc(var(--spacing-16) * -1);
+  @media (min-width: 768px) {
+    margin-left: -16px;
+    padding-top: 0;
   }
 
   &::before {
@@ -21,8 +22,8 @@ const Nav = styled.nav`
     margin-right: var(--spacing-12);
     padding: 4px 0;
 
-    @media (min-width: 480px) {
-      display: inline-block;
+    @media (min-width: 768px) {
+      display: block;
     }
   }
 
@@ -31,9 +32,10 @@ const Nav = styled.nav`
     flex-direction: row;
     gap: var(--spacing-16);
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
       flex-direction: column;
       gap: 0;
+      align-self: flex-start;
     }
 
     &:hover li {
