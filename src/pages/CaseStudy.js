@@ -11,6 +11,7 @@ const Hero = styled.section`
   justify-content: center;
   max-width: 960px;
   margin: var(--spacing-48) auto 0;
+  padding: var(--spacing-16);
 
   @media (min-width: 768px) {
     margin: var(--spacing-96) auto 0;
@@ -21,7 +22,6 @@ const Hero = styled.section`
     max-width: 450px;
     text-align: center;
     margin-bottom: var(--spacing-24);
-    padding: var(--spacing-24);
 
     @media (min-width: 768px) {
       margin-bottom: var(--spacing-96);
@@ -50,13 +50,15 @@ const FeaturedImageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   margin: 0 auto;
   padding: var(--spacing-32) 0;
   background: linear-gradient(180deg, #eadeda 0%, rgba(234, 222, 218, 0) 100%);
-  margin: var(--spacing-16);
+  margin: var(--spacing-64) 0;
 
   @media (min-width: 768px) {
-    height: 725px;
+    margin: 0;
+    padding: var(--spacing-64) 0;
   }
 `;
 
@@ -79,11 +81,11 @@ const FeaturedImage = styled.img`
 
   &.kit {
     width: 80%;
-    margin-right: -32px;
+    margin-right: calc(var(--spacing-48) * -1);
     margin-bottom: -200px;
 
     @media (min-width: 768px) {
-      width: 65%;
+      width: 90%;
       margin-right: -90px;
     }
   }
@@ -93,15 +95,14 @@ const FeaturedImage = styled.img`
     margin-bottom: -150px;
 
     @media (min-width: 768px) {
-      width: 90%;
-      margin-right: -90px;
+      width: 80%;
     }
   }
 `;
 
 const Overview = styled.section`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-row-gap: var(--spacing-48);
   width: 100%;
   margin: var(--spacing-96) auto var(--spacing-48);
@@ -110,7 +111,7 @@ const Overview = styled.section`
   @media (min-width: 768px) {
     grid-column-gap: var(--spacing-64);
     max-width: 960px;
-    margin: var(--spacing-128) auto;
+    margin-bottom: var(--spacing-128);
   }
 
   h2 {
@@ -126,6 +127,10 @@ const Overview = styled.section`
 
   .overviewText {
     grid-column: span 2;
+
+    @media (min-width: 768px) {
+      grid-column: 1 / 2;
+    }
   }
 
   p:not(:last-child) {
@@ -151,6 +156,11 @@ const Overview = styled.section`
     gap: var(--spacing-8);
     grid-column: span 2;
     margin-top: var(--spacing-16);
+
+    @media (min-width: 768px) {
+      grid-column: 2 / 2;
+      max-width: 320px;
+    }
   }
 
   .metadataItem {
@@ -188,6 +198,7 @@ const ImageGrid = styled.section`
 
   @media (min-width: 768px) {
     gap: var(--spacing-16);
+    margin: var(--spacing-16);
   }
 `;
 
