@@ -22,8 +22,8 @@ const Home = () => {
   return (
     <>
       <HeroSection offsetY={offsetY} />
-      <WorkSection id="work" />
-      <ExperienceSection id="experience" />
+      <WorkSection />
+      <ExperienceSection />
     </>
   );
 };

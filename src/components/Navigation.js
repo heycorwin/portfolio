@@ -74,7 +74,7 @@ const Navigation = () => (
         </Link>
       </li>
       <li>
-        <Link to="mailto:hello@corwinharrell.com">Contact</Link>
+        <a href="mailto:hello@corwinharrell.com">Contact</a>
       </li>
     </ul>
   </Nav>

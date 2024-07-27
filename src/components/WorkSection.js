@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import data from "../data.json";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const FeaturedWork = styled.section`
   display: flex;
@@ -62,6 +62,11 @@ const FeaturedImageContainer = styled.div`
     width: 100%;
     object-fit: contain;
     position: absolute;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
   }
 
   &.near-dev {
@@ -179,7 +184,7 @@ const ProjectSummary = styled.div`
 
 const WorkSection = () => {
   return (
-    <FeaturedWork>
+    <FeaturedWork id="work">
       {data.projects.map((project, index) => (
         <Project key={index}>
           <FeaturedImageContainer className={project.id}>
