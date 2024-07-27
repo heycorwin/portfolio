@@ -4,14 +4,18 @@ import { Link } from "react-router-dom";
 import data from "../data.json";
 
 const Nav = styled.nav`
-  position: fixed;
   top: 0;
-  padding: var(--spacing-24);
+  padding: var(--spacing-16);
   z-index: 1000;
   font-weight: 500;
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: 768px) {
+    padding: var(--spacing-24);
+    position: fixed;
+  }
 
   ol {
     display: flex;
