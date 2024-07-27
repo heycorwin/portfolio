@@ -8,7 +8,11 @@ const FeaturedWork = styled.section`
   flex-direction: column;
   margin: 0 auto;
   gap: var(--spacing-128);
-  padding: var(--spacing-128) 0;
+  padding: var(--spacing-64) 0;
+
+  @media (min-width: 768px) {
+    gap: var(--spacing-32);
+  }
 
   @media (min-width: 1200px) {
     max-width: 1200px;
