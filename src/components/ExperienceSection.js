@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import data from "../data.json";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Resume = styled.section`
   display: flex;
@@ -99,7 +99,7 @@ const Resume = styled.section`
 
 const ExperienceSection = () => {
   return (
-    <Resume>
+    <Resume id="experience">
       <header>
         <h2>Experience</h2>
         <Link to="https://www.linkedin.com/in/corwinharrell/" target="_blank">
