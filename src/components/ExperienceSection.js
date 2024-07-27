@@ -14,6 +14,10 @@ const Resume = styled.section`
     margin: 0 auto;
   }
 
+  @media (min-width: 1024px) {
+    max-width: 740px;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -35,6 +39,10 @@ const Resume = styled.section`
     font-size: 30px;
     font-weight: 450;
     letter-spacing: -0.5px;
+
+    @media (min-width: 1024px) {
+      font-size: var(--font-size-40);
+    }
   }
 
   ol {
@@ -64,6 +72,9 @@ const Resume = styled.section`
   .job {
     @media (min-width: 768px) {
       flex: 2.5;
+    }
+    @media (min-width: 1024px) {
+      flex: 3;
     }
   }
 

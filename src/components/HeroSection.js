@@ -15,6 +15,16 @@ const Hero = styled.section`
     max-height: 90vw;
     gap: 10vw;
   }
+
+  @media (min-width: 1024px) {
+    gap: 15vw;
+    height: 95vh;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 `;
 
 const HeroImageContainer = styled.div`
@@ -29,13 +39,13 @@ const HeroImageContainer = styled.div`
   will-change: transform; /* Optimize for animations */
 
   @media (min-width: 768px) {
-    width: 40vw;
+    flex: 1;
     height: 100%;
     overflow: visible;
   }
 
   @media (min-width: 1024px) {
-    width: 40vw;
+    flex: 1;
   }
 
   &::before,
@@ -65,6 +75,17 @@ const HeroImageContainer = styled.div`
       margin-right: auto;
       bottom: 75px;
     }
+
+    @media (min-width: 1024px) {
+      width: 90vh;
+      height: 100%;
+      margin-left: -300px;
+      bottom: 50px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-left: -300px;
+    }
   }
 
   &::after {
@@ -80,9 +101,14 @@ const HeroImageContainer = styled.div`
     opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.0025)};
 
     @media (min-width: 768px) {
-      margin-left: -275px;
-      width: ${(props) => Math.max(40, 50 - props.offsetY * 0.05)}vw;
+      margin-left: -350px;
+      width: ${(props) => Math.max(40, 50 - props.offsetY * 0.05)}vh;
       height: ${(props) => Math.max(0, 80 - props.offsetY * 0.15)}px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-left: -300px;
+      height: ${(props) => Math.max(0, 100 - props.offsetY * 0.15)}px;
     }
   }
 `;
@@ -98,6 +124,12 @@ const HeroWrapper = styled.div`
     flex-direction: column;
     justify-content: space-between;
     margin-top: 0;
+    flex: 2.5;
+  }
+
+  @media (min-width: 1024px) {
+    flex: 3;
+    padding: var(--spacing-24) var(--spacing-24) 0 0;
   }
 `;
 
@@ -108,6 +140,10 @@ const HeroContent = styled.div`
   @media (min-width: 768px) {
     flex: 100%;
     justify-content: center;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 640px;
   }
 
   h1 {
@@ -126,12 +162,12 @@ const HeroContent = styled.div`
     }
 
     @media (min-width: 768px) {
-        font-size: var(--font-size-32);
-        line-height: 1.3;
+      font-size: var(--font-size-32);
+      line-height: 1.3;
     }
 
     @media (min-width: 1024px) {
-        font-size: var(--font-size-48);
+      font-size: var(--font-size-40);
     }
   }
 
@@ -160,6 +196,7 @@ const HeroContent = styled.div`
 
       &::after {
         margin-left: var(--spacing-8);
+      }
     }
   }
 `;

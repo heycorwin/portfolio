@@ -9,6 +9,12 @@ const FeaturedWork = styled.section`
   margin: 0 auto;
   gap: var(--spacing-128);
   padding: var(--spacing-128) 0;
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    gap: var(--spacing-72);
+    padding: var(--spacing-64) 0;
+  }
 `;
 
 const Project = styled.div`
@@ -43,8 +49,13 @@ const FeaturedImageContainer = styled.div`
   margin-bottom: -50px;
 
   @media (min-width: 768px) {
-    width: 50vw;
+    width: 50%;
     height: 50vw;
+  }
+
+  @media (min-width: 1200px) {
+    width: 60%;
+    overflow: visible;
   }
 
   img {
@@ -61,8 +72,12 @@ const FeaturedImageContainer = styled.div`
 
   &.kit {
     img {
-      right: 30px;
+      right: var(--spacing-32);
       width: 70%;
+
+      @media (min-width: 1200px) {
+        right: var(--spacing-48);
+      }
     }
   }
 `;
@@ -73,8 +88,17 @@ const ProjectSummary = styled.div`
 
   @media (min-width: 768px) {
     width: 50%;
-
     padding-left: var(--spacing-72);
+  }
+
+  @media (min-width: 1024px) {
+    width: 45%;
+    padding-left: var(--spacing-72);
+  }
+
+  @media (min-width: 1200px) {
+    width: 40%;
+    margin-top: calc(var(--spacing-64) * -1);
   }
 
   .numeral {
@@ -90,6 +114,11 @@ const ProjectSummary = styled.div`
 
     @media (min-width: 768px) {
       display: block;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: var(--font-size-24);
+      font-weight: 450;
     }
   }
 
@@ -113,6 +142,12 @@ const ProjectSummary = styled.div`
 
     @media (min-width: 1024px) {
       font-size: var(--font-size-48);
+    }
+
+    @media (min-width: 1200px) {
+      font-size: var(--font-size-56);
+      font-weight: 400;
+      letter-spacing: -1.5px;
     }
   }
 
