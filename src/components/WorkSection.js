@@ -135,7 +135,7 @@ const ProjectSummary = styled.div`
     max-width: 250px;
     line-height: 1;
     font-size: 30px;
-    font-weight: 450;
+    font-weight: 400;
     margin-bottom: var(--spacing-24);
     letter-spacing: -1px;
 
@@ -150,13 +150,14 @@ const ProjectSummary = styled.div`
     }
 
     @media (min-width: 1024px) {
-      font-size: var(--font-size-48);
+      font-size: var(--font-size-40);
+      line-height: 1.2;
     }
 
     @media (min-width: 1200px) {
-      font-size: var(--font-size-56);
-      font-weight: 400;
-      letter-spacing: -1.5px;
+      font-size: var(--font-size-48);
+      font-weight: 350;
+      letter-spacing: -1px;
     }
   }
 

@@ -106,6 +106,11 @@ const HeroImageContainer = styled.div`
       height: ${(props) => Math.max(0, 80 - props.offsetY * 0.15)}px;
     }
 
+    @media (min-width: 1024px) {
+      margin-left: -325px;
+      width: ${(props) => Math.max(45, 50 - props.offsetY * 0.05)}vh;
+    }
+
     @media (min-width: 1200px) {
       margin-left: -300px;
       height: ${(props) => Math.max(0, 100 - props.offsetY * 0.15)}px;
@@ -131,6 +136,10 @@ const HeroWrapper = styled.div`
     flex: 3;
     padding: var(--spacing-24) var(--spacing-24) 0 0;
   }
+
+  @media (min-width: 1200px) {
+    flex: 4;
+  }
 `;
 
 const HeroContent = styled.div`
@@ -146,6 +155,10 @@ const HeroContent = styled.div`
     max-width: 640px;
   }
 
+  @media (min-width: 1200px) {
+    max-width: none;
+  }
+
   h1 {
     font-size: 28px;
     font-weight: 400;
@@ -157,17 +170,18 @@ const HeroContent = styled.div`
     max-width: 900px;
 
     @media (min-width: 480px) {
-      font-size: var(--font-size-40);
-      line-height: 1.25;
-    }
-
-    @media (min-width: 768px) {
       font-size: var(--font-size-32);
-      line-height: 1.3;
+      line-height: 1.25;
     }
 
     @media (min-width: 1024px) {
       font-size: var(--font-size-40);
+    }
+
+    @media (min-width: 1200px) {
+      font-size: var(--font-size-48);
+      line-height: 1.2;
+      font-weight: 350;
     }
   }
 
