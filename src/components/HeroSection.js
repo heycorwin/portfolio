@@ -97,18 +97,18 @@ const HeroImageContainer = styled.div`
     z-index: -1000;
     transform-origin: center;
     height: ${(props) => Math.max(0, 70 - props.offsetY * 0.15)}px;
-    width: ${(props) => Math.max(30, 36 - props.offsetY * 0.05)}vh;
+    width: ${(props) => Math.max(20, 36 - props.offsetY * 0.025)}vh;
     opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.0025)};
 
     @media (min-width: 768px) {
       margin-left: -350px;
-      width: ${(props) => Math.max(40, 50 - props.offsetY * 0.05)}vh;
+      width: ${(props) => Math.max(30, 50 - props.offsetY * 0.025)}vh;
       height: ${(props) => Math.max(0, 80 - props.offsetY * 0.15)}px;
     }
 
     @media (min-width: 1024px) {
       margin-left: -325px;
-      width: ${(props) => Math.max(45, 50 - props.offsetY * 0.05)}vh;
+      width: ${(props) => Math.max(35, 50 - props.offsetY * 0.025)}vh;
     }
 
     @media (min-width: 1200px) {
