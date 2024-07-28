@@ -16,7 +16,7 @@
       ],
       "projectImages": [
         {
-          "src": "/images/near-dev/editor.svg",
+          "src": "/images/near-dev/editor.png",
           "alt": "A NEAR Developer Network editor-based tutorial experience.",
           "width": "full",
           "position": "center",
@@ -24,7 +24,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/near-dev/profile-activity.svg",
+          "src": "/images/near-dev/profile-activity.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -32,7 +32,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/near-dev/profile-projects.svg",
+          "src": "/images/near-dev/profile-projects.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -40,7 +40,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/near-dev/community.svg",
+          "src": "/images/near-dev/community.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -48,7 +48,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/near-dev/discussions.svg",
+          "src": "/images/near-dev/discussions.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -73,7 +73,7 @@
         }
       ],
       "featuredImage": {
-        "src": "/images/near-dev/spot.svg",
+        "src": "/images/near-dev/spot.png",
         "alt": "A screenshot of the NEAR Developer Network editor."
       }
     },
@@ -94,7 +94,7 @@
       ],
       "projectImages": [
         {
-          "src": "/images/kit/account.svg",
+          "src": "/images/kit/account.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -102,7 +102,7 @@
           "theme": "dark"
         },
         {
-          "src": "/images/kit/send.svg",
+          "src": "/images/kit/send.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -110,7 +110,7 @@
           "theme": "dark"
         },
         {
-          "src": "/images/kit/transactions.svg",
+          "src": "/images/kit/transactions.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -118,7 +118,7 @@
           "theme": "dark"
         },
         {
-          "src": "/images/kit/nfts.svg",
+          "src": "/images/kit/nfts.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -126,7 +126,7 @@
           "theme": "dark"
         },
         {
-          "src": "/images/kit/components.svg",
+          "src": "/images/kit/components.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -135,7 +135,7 @@
         }
       ],
       "featuredImage": {
-        "src": "/images/kit/spot.svg",
+        "src": "/images/kit/spot.png",
         "alt": "A screenshot of the Kit crypto wallet extension."
       }
     },
@@ -156,7 +156,7 @@
       ],
       "projectImages": [
         {
-          "src": "/images/bounties-network/home.svg",
+          "src": "/images/bounties-network/home.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -172,7 +172,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/bounties-network/explorer.svg",
+          "src": "/images/bounties-network/explorer.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -180,7 +180,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/bounties-network/feed.svg",
+          "src": "/images/bounties-network/feed.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -188,7 +188,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/bounties-network/browse-communities.svg",
+          "src": "/images/bounties-network/browse-communities.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -204,7 +204,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/bounties-network/community-profile.svg",
+          "src": "/images/bounties-network/community-profile.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -212,7 +212,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/bounties-network/bounty-details.svg",
+          "src": "/images/bounties-network/bounty-details.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -221,7 +221,7 @@
         }
       ],
       "featuredImage": {
-        "src": "/images/bounties-network/spot.svg",
+        "src": "/images/bounties-network/spot.png",
         "alt": "A screenshot of the NEAR Developer Network editor."
       }
     }

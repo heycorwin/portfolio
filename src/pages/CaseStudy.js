@@ -72,7 +72,6 @@ const FeaturedImage = styled.img`
 
   &.near-dev {
     margin-bottom: -150px;
-    margin-right: -24px;
 
     @media (min-width: 768px) {
       margin-right: -50px;
@@ -85,7 +84,7 @@ const FeaturedImage = styled.img`
     margin-bottom: -200px;
 
     @media (min-width: 768px) {
-      width: 90%;
+      width: 70%;
       margin-right: -90px;
     }
   }
@@ -103,14 +102,16 @@ const FeaturedImage = styled.img`
 const Overview = styled.section`
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  grid-row-gap: var(--spacing-48);
+  grid-row-gap: var(--spacing-32);
   width: 100%;
   margin: var(--spacing-96) auto var(--spacing-48);
   padding: var(--spacing-16);
 
   @media (min-width: 768px) {
     grid-column-gap: var(--spacing-64);
+    grid-row-gap: var(--spacing-40);
     max-width: 960px;
+    max-height: 60vw;
     margin-bottom: var(--spacing-128);
   }
 
@@ -217,14 +218,20 @@ const ImageContainer = styled.div`
       ? "white"
       : "none"};
   padding-top: ${(props) =>
-    props.shadow === "none" ? "var(--spacing-96)" : "var(--spacing-64)"};
+    props.shadow === "none" ? "var(--spacing-56)" : "var(--spacing-48)"};
   padding-bottom: ${(props) =>
-    props.position === "bottom" ? "0" : "var(--spacing-64)"};
+    props.position === "bottom" ? "0" : "var(--spacing-48)"};
   grid-column: span ${(props) => (props.width === "half" ? 1 : 2)};
   gap: var(--spacing-48);
-  max-height: 50vw;
   overflow: hidden;
   width: 100%;
+
+  @media (min-width: 768px) {
+    padding-top: ${(props) =>
+      props.shadow === "none" ? "var(--spacing-96)" : "var(--spacing-64)"};
+    padding-bottom: ${(props) =>
+      props.position === "bottom" ? "0" : "var(--spacing-64)"};
+  }
 
   .imageCaption {
     display: block;
@@ -241,7 +248,11 @@ const ImageContainer = styled.div`
         : props.shadow === "light"
         ? "var(--diffused-shadow-light)"
         : "none"};
-    max-width: 60%;
+    max-width: 80%;
+
+    @media (min-width: 768px) {
+      max-width: 60%;
+    }
   }
 `;
 

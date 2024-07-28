@@ -68,17 +68,6 @@ const FeaturedImageContainer = styled.div`
     position: absolute;
   }
 
-  svg {
-    width: 100%;
-    height: auto;
-  }
-
-  &.near-dev {
-    img {
-      right: -15px;
-    }
-  }
-
   &.kit {
     img {
       right: var(--spacing-32);
