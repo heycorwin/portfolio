@@ -37,7 +37,7 @@ const Resume = styled.section`
 
   h2 {
     font-size: 30px;
-    font-weight: 450;
+    font-weight: 400;
     letter-spacing: -0.5px;
 
     @media (min-width: 1024px) {
