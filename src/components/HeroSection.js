@@ -172,7 +172,6 @@ const HeroContent = styled.div`
     @media (min-width: 1200px) {
       font-size: var(--font-size-48);
       line-height: 1.2;
-      font-weight: 350;
     }
   }
 

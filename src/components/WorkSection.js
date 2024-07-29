@@ -145,7 +145,6 @@ const ProjectSummary = styled.div`
 
     @media (min-width: 1200px) {
       font-size: var(--font-size-48);
-      font-weight: 350;
       letter-spacing: -1px;
     }
   }
