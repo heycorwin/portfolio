@@ -57,21 +57,21 @@ const HeroImageContainer = styled.div`
     content: "";
     display: block;
     position: absolute;
-    width: 105%;
+    width: 110%;
     height: 100%;
-    bottom: 16px;
-    margin-right: -24px;
+    bottom: 7%;
+    margin-right: -56px;
     background-image: url(${flowerBookImageUrl});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     transform-origin: center;
-    transform: translateY(${(props) => props.offsetY * -0.2}px) rotate(13deg);
+    transform: translateY(${(props) => props.offsetY * -0.2}px) rotate(10deg);
 
     @media (min-width: 768px) {
-      width: 80vh;
+      width: 85vh;
       height: 100%;
-      margin-left: -300px;
+      margin-left: -200px;
       margin-right: auto;
       bottom: 75px;
     }
@@ -79,12 +79,8 @@ const HeroImageContainer = styled.div`
     @media (min-width: 1024px) {
       width: 90vh;
       height: 100%;
-      margin-left: -300px;
+      margin-left: -250px;
       bottom: 50px;
-    }
-
-    @media (min-width: 1200px) {
-      margin-left: -300px;
     }
   }
 
@@ -97,18 +93,13 @@ const HeroImageContainer = styled.div`
     z-index: -1000;
     transform-origin: center;
     height: ${(props) => Math.max(0, 70 - props.offsetY * 0.15)}px;
-    width: ${(props) => Math.max(20, 36 - props.offsetY * 0.025)}vh;
+    width: ${(props) => Math.max(20, 38 - props.offsetY * 0.025)}vh;
     opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.0025)};
 
     @media (min-width: 768px) {
-      margin-left: -350px;
+      margin-left: -250px;
       width: ${(props) => Math.max(30, 50 - props.offsetY * 0.025)}vh;
       height: ${(props) => Math.max(0, 80 - props.offsetY * 0.15)}px;
-    }
-
-    @media (min-width: 1024px) {
-      margin-left: -325px;
-      width: ${(props) => Math.max(35, 50 - props.offsetY * 0.025)}vh;
     }
 
     @media (min-width: 1200px) {
