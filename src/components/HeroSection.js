@@ -10,6 +10,7 @@ const Hero = styled.section`
   flex-direction: column;
   height: 90vh;
   width: 100%;
+  overflow: hidden;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -21,6 +22,7 @@ const Hero = styled.section`
     max-width: 1200px;
     gap: 10%;
     margin: 0 auto;
+    overflow: visible;
   }
 `;
 
@@ -32,6 +34,7 @@ const HeroImageContainer = styled.div`
   position: relative;
   height: 100%;
   flex: 100%;
+
   z-index: -999;
   will-change: transform; /* Optimize for animations */
 
