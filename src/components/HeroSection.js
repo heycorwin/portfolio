@@ -3,26 +3,23 @@ import styled from "styled-components";
 import Navigation from "./Navigation";
 
 const flowerBookImageUrl = `${process.env.PUBLIC_URL}/images/flowerbook.png`;
+const heroShadowUrl = `${process.env.PUBLIC_URL}/images/heroshadow.png`;
 
 const Hero = styled.section`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 
   @media (min-width: 768px) {
     flex-direction: row;
     max-height: 90vw;
-    gap: 10vw;
-  }
-
-  @media (min-width: 1024px) {
-    gap: 15vw;
-    height: 95vh;
+    gap: 5%;
   }
 
   @media (min-width: 1200px) {
     max-width: 1200px;
+    gap: 10%;
     margin: 0 auto;
   }
 `;
@@ -33,79 +30,49 @@ const HeroImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 60vh;
-  overflow: hidden;
+  height: 100%;
+  flex: 100%;
   z-index: -999;
   will-change: transform; /* Optimize for animations */
 
   @media (min-width: 768px) {
+    height: 110%;
     flex: 1;
-    height: 100%;
-    overflow: visible;
+    margin-top: calc(var(--spacing-32) * -1);
   }
 
   @media (min-width: 1024px) {
-    flex: 1;
+    flex: 1.5;
   }
 
   &::before,
   &::after {
-    will-change: transform, opacity; /* Optimize for animations */
-  }
-
-  &::before {
     content: "";
     display: block;
     position: absolute;
-    width: 110%;
+    width: 100%;
     height: 100%;
-    bottom: 7%;
-    margin-right: -56px;
-    background-image: url(${flowerBookImageUrl});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     transform-origin: center;
-    transform: translateY(${(props) => props.offsetY * -0.2}px) rotate(10deg);
+    will-change: transform, opacity; /* Optimize for animations */
 
     @media (min-width: 768px) {
-      width: 85vh;
-      height: 100%;
-      margin-left: -200px;
-      margin-right: auto;
-      bottom: 75px;
-    }
-
-    @media (min-width: 1024px) {
-      width: 90vh;
-      height: 100%;
-      margin-left: -250px;
-      bottom: 50px;
+      width: 300%;
+      margin-left: -125%;
     }
   }
 
+  &::before {
+    background-image: url(${flowerBookImageUrl});
+    transform: translateY(${(props) => props.offsetY * -0.2}px);
+  }
+
   &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    border-radius: 100%;
-    background-color: #e1d5d0;
+    background-image: url(${heroShadowUrl});
     z-index: -1000;
-    transform-origin: center;
-    height: ${(props) => Math.max(0, 70 - props.offsetY * 0.15)}px;
-    width: ${(props) => Math.max(20, 38 - props.offsetY * 0.025)}vh;
     opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.0025)};
-
-    @media (min-width: 768px) {
-      margin-left: -250px;
-      width: ${(props) => Math.max(30, 50 - props.offsetY * 0.025)}vh;
-      height: ${(props) => Math.max(0, 80 - props.offsetY * 0.15)}px;
-    }
-
-    @media (min-width: 1200px) {
-      margin-left: -300px;
-      height: ${(props) => Math.max(0, 100 - props.offsetY * 0.15)}px;
-    }
   }
 `;
 
@@ -114,7 +81,6 @@ const HeroWrapper = styled.div`
   justify-content: flex-start;
   flex-direction: column-reverse;
   padding: var(--spacing-24);
-  margin-top: var(--spacing-24);
 
   @media (min-width: 768px) {
     flex-direction: column;
