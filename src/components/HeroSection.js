@@ -70,9 +70,11 @@ const HeroImageContainer = styled.div`
   }
 
   &::after {
+    bottom: 0;
     background-image: url(${heroShadowUrl});
     z-index: -1000;
-    opacity: ${(props) => Math.max(0, 1 - props.offsetY * 0.0025)};
+    opacity: ${(props) => Math.max(0, 0.35 - props.offsetY * 0.001)};
+    transform: skew(${(props) => Math.max(-10, 0 - props.offsetY * 0.025)}deg);
   }
 `;
 
