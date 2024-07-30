@@ -62,7 +62,7 @@ const Resume = styled.section`
 
   .jobDuration {
     color: var(--text-secondary);
-    margin-bottom: var(--spacing-16);
+    margin-bottom: var(--spacing-12);
 
     @media (min-width: 768px) {
       flex: 1;
