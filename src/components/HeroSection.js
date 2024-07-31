@@ -8,6 +8,7 @@ const heroShadowUrl = `${process.env.PUBLIC_URL}/images/heroshadow.png`;
 const Hero = styled.section`
   display: flex;
   flex-direction: column;
+  padding-top: var(--spacing-24);
   height: 90vh;
   width: 100%;
   overflow: hidden;
@@ -77,7 +78,7 @@ const HeroImageContainer = styled.div`
     background-image: url(${heroShadowUrl});
     z-index: -1000;
     opacity: ${(props) => Math.max(0, 0.35 - props.offsetY * 0.001)};
-    transform: skew(${(props) => Math.max(-10, 0 - props.offsetY * 0.025)}deg);
+    filter: blur(${(props) => Math.max(0, props.offsetY * 0.025)}px);
   }
 `;
 
