@@ -25,7 +25,7 @@
         },
         {
           "src": "/images/near-dev/component-details.png",
-          "alt": "A NEAR Developer Network editor-based tutorial experience.",
+          "alt": "",
           "width": "full",
           "position": "center",
           "shadow": "light",
@@ -33,6 +33,14 @@
         },
         {
           "src": "/images/near-dev/editor.png",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/onboarding.png",
           "alt": "A NEAR Developer Network editor-based tutorial experience.",
           "width": "full",
           "position": "center",
@@ -82,7 +90,7 @@
       ],
       "featuredImage": {
         "src": "/images/near-dev/spot.png",
-        "alt": "A screenshot of the NEAR Developer Network editor."
+        "alt": ""
       }
     },
     {
@@ -230,7 +238,7 @@
       ],
       "featuredImage": {
         "src": "/images/bounties-network/spot.png",
-        "alt": "A screenshot of the NEAR Developer Network editor."
+        "alt": ""
       }
     }
   ],
