@@ -72,10 +72,6 @@ const FeaturedImage = styled.img`
 
   &.near-dev {
     margin-bottom: -150px;
-
-    @media (min-width: 768px) {
-      margin-right: -50px;
-    }
   }
 
   &.kit {
