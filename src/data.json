@@ -16,6 +16,22 @@
       ],
       "projectImages": [
         {
+          "src": "/images/near-dev/profile-projects.png",
+          "alt": "",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/near-dev/component-details.png",
+          "alt": "A NEAR Developer Network editor-based tutorial experience.",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
           "src": "/images/near-dev/editor.png",
           "alt": "A NEAR Developer Network editor-based tutorial experience.",
           "width": "full",
@@ -25,14 +41,6 @@
         },
         {
           "src": "/images/near-dev/profile-activity.png",
-          "alt": "",
-          "width": "full",
-          "position": "center",
-          "shadow": "light",
-          "theme": "light"
-        },
-        {
-          "src": "/images/near-dev/profile-projects.png",
           "alt": "",
           "width": "full",
           "position": "center",
@@ -164,7 +172,7 @@
           "theme": "light"
         },
         {
-          "src": "/images/bounties-network/brand.svg",
+          "src": "/images/bounties-network/brand.png",
           "alt": "",
           "width": "full",
           "position": "center",
