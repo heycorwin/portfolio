@@ -35,9 +35,8 @@ const HeroImageContainer = styled.div`
   position: relative;
   height: 100%;
   flex: 100%;
-
   z-index: -999;
-  will-change: transform; /* Optimize for animations */
+  will-change: transform, opacity, filter; /* Optimize for animations */
 
   @media (min-width: 768px) {
     height: 110%;
@@ -60,7 +59,7 @@ const HeroImageContainer = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     transform-origin: center;
-    will-change: transform, opacity; /* Optimize for animations */
+    will-change: transform, opacity, filter; /* Optimize for animations */
 
     @media (min-width: 768px) {
       width: 300%;
