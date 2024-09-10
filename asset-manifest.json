@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.148965fe.css",
-    "main.js": "/static/js/main.b9e1d404.js",
+    "main.js": "/static/js/main.6377df6d.js",
+    "static/js/589.6b5f9bb2.chunk.js": "/static/js/589.6b5f9bb2.chunk.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/inter-latin-ext-600-normal.woff": "/static/media/inter-latin-ext-600-normal.1b4b5615c2cc1d3b3562.woff",
     "static/media/inter-latin-ext-400-normal.woff": "/static/media/inter-latin-ext-400-normal.40b3b0d5e09a90fb6e3e.woff",
@@ -11,6 +12,7 @@
     "static/media/inter-latin-400-normal.woff": "/static/media/inter-latin-400-normal.08a02fd275ecea6ef662.woff",
     "static/media/inter-latin-600-normal.woff2": "/static/media/inter-latin-600-normal.5d2eaa33f8194c062cad.woff2",
     "static/media/inter-latin-400-normal.woff2": "/static/media/inter-latin-400-normal.f1535355a7df553be385.woff2",
+    "static/media/2024-09-09-experimenting-with-github-copilot.md": "/static/media/2024-09-09-experimenting-with-github-copilot.cf12f388947634482d2f.md",
     "static/media/inter-cyrillic-ext-600-normal.woff": "/static/media/inter-cyrillic-ext-600-normal.55bbeb2a455ee4d261df.woff",
     "static/media/inter-cyrillic-ext-400-normal.woff": "/static/media/inter-cyrillic-ext-400-normal.cd2ad378115f549d3c5b.woff",
     "static/media/inter-greek-600-normal.woff": "/static/media/inter-greek-600-normal.a797c6df2a7f3307ec14.woff",
@@ -33,11 +35,11 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
     "index.html": "/index.html",
     "main.148965fe.css.map": "/static/css/main.148965fe.css.map",
-    "main.b9e1d404.js.map": "/static/js/main.b9e1d404.js.map",
+    "main.6377df6d.js.map": "/static/js/main.6377df6d.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.148965fe.css",
-    "static/js/main.b9e1d404.js"
+    "static/js/main.6377df6d.js"
   ]
 }
