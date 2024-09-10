@@ -69,8 +69,8 @@ const PostHeader = styled.div`
     font-size: var(--font-size-32);
     font-weight: 400;
     color: var(--text-primary);
-    letter-spacing: -1px;
-    line-height: 1.2;
+    letter-spacing: -0.5px;
+    line-height: 1.3;
     word-spacing: 0.1em;
     font-feature-settings: "salt" on;
     max-width: 900px;
