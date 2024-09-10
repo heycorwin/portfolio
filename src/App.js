@@ -5,6 +5,8 @@ import "./styles/globalStyles.css";
 import styled from "styled-components";
 import Home from "./pages/Home";
 import CaseStudy from "./pages/CaseStudy";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 const AppContainer = styled.div`
   display: flex;
@@ -52,6 +54,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/casestudy/:projectId" element={<CaseStudy />} />
+          <Route path="/blog/:postId" element={<BlogPost />} />
         </Routes>
         <Footer>
           <div className="footerWrapper">
