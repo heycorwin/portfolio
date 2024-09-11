@@ -10,7 +10,7 @@ I want to share some of the ways that I’ve found Copilot to be a huge augmenta
 
 To do this, I’ve used Copilot inside VSCode to implement a new portion of my personal site: a blog. The first post for this new blog will be this one, so if you’re reading this, you know it works! (I’ve also used Copilot all throughout my time building this site with a similar approach.) Hopefully this inspires those that feel limited in their ability to implement their ideas in code to test the waters. I’m certain that those that do will quickly realize that even in their current state, these tools grant superpowers that can significantly narrow the gap between idea and implementation.
 
-_You may ask, why Github instead of Cursor or Claude? The answer is that I’m already comfortable in VSCode, so before trying out other tools like Cursor, etc., I’m experimenting with what is already available to me in my most familiar environment._
+_You may ask, why Github Copilot instead of Cursor or Claude? The answer is that I’m already comfortable in VSCode, so before trying out other tools like Cursor, etc., I’m experimenting with what is already available to me in my most familiar environment._
 
 ## Idea → Prompt → Prototype
 
