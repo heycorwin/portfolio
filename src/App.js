@@ -62,12 +62,12 @@ function App() {
             <span className="footerLinks">
               <ul>
                 <li>
-                  <Link smooth to="#work">
+                  <Link smooth to="/#work">
                     Work
                   </Link>
                 </li>
                 <li>
-                  <Link smooth to="#experience">
+                  <Link smooth to="/#experience">
                     Experience
                   </Link>
                 </li>
