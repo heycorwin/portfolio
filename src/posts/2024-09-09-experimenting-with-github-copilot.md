@@ -111,4 +111,4 @@ Even after a few humble experiments, I can’t see myself building anything new 
 
 I hope this perspective has been insightful and has maybe even inspired a few to experiment on their own! As I continue to dabble myself, I’m looking forward to spending more time with some of the other AI tools like Cursor, Claude, v0 and more, all of which seem to be generating a lot of buzz for many of the same reasons I’ve highlighted in this post.
 
-_If there is any interest in seeing the final output of some of these experiments, the code for this site and blog are public and [hosted on Github](https://github.com/heycorwin/portfolio)_
+_Until I have enough posts for a Blog Index, feel free to check out some of [my other work](https://corwinharrell.com/). If there is any interest in seeing the final output of some of these experiments, the code for this site and blog are public and [hosted on Github](https://github.com/heycorwin/portfolio)._
