@@ -17,6 +17,7 @@ const BlogPostWrapper = styled.div`
     font-size: var(--font-size-24);
     font-weight: 450;
     margin: var(--spacing-40) 0 var(--spacing-16);
+    line-height: 1.3;
   }
 
   p {
