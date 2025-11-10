@@ -77,11 +77,6 @@ function App() {
               </ul>
               <ul>
                 <li>
-                  <Link to="https://twitter.com/heycorwin" target="_blank">
-                    Twitter
-                  </Link>
-                </li>
-                <li>
                   <Link to="https://github.com/heycorwin" target="_blank">
                     Github
                   </Link>
