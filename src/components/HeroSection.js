@@ -184,9 +184,8 @@ const HeroSection = ({ offsetY }) => {
         <Navigation />
         <HeroContent>
           <h1>
-            Corwin Harrell is a product designer cultivating beautiful &
-            thoughtfully designed software with startup founders & product
-            teams.
+            Corwin Harrell is a product designer cultivating thoughtfully
+            designed software solutions with startup founders & product teams.
           </h1>
 
           <a className="contactLink" href="mailto:hello@corwinharrell.com">
