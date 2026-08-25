@@ -58,7 +58,7 @@ function App() {
         </Routes>
         <Footer>
           <div className="footerWrapper">
-            <p>© 2024 Corwin Harrell</p>
+            <p>©2026 Corwin Harrell</p>
             <span className="footerLinks">
               <ul>
                 <li>
