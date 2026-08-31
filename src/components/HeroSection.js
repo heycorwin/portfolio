@@ -129,7 +129,6 @@ const HeroContent = styled.div`
     line-height: 1.3;
     word-spacing: 0.1em;
     font-feature-settings: "salt" on;
-    max-width: 900px;
 
     @media (min-width: 480px) {
       font-size: var(--font-size-32);
@@ -138,11 +137,13 @@ const HeroContent = styled.div`
 
     @media (min-width: 1024px) {
       font-size: var(--font-size-40);
+      max-width: 600px;
     }
 
     @media (min-width: 1200px) {
       font-size: var(--font-size-48);
       line-height: 1.2;
+      max-width: 700px;
     }
   }
 
@@ -185,7 +186,7 @@ const HeroSection = ({ offsetY }) => {
         <HeroContent>
           <h1>
             Corwin Harrell is a product designer cultivating thoughtfully
-            designed software solutions with founders & product teams.
+            designed software with founders & product teams.
           </h1>
 
           <a className="contactLink" href="mailto:hello@corwinharrell.com">
