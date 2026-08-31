@@ -70,11 +70,11 @@ const FeaturedImageContainer = styled.div`
 
   &.kit {
     img {
-      right: var(--spacing-32);
+      right: var(--spacing-48);
       width: 70%;
 
       @media (min-width: 1200px) {
-        right: var(--spacing-48);
+        right: var(--spacing-56);
       }
     }
   }

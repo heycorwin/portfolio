@@ -70,6 +70,10 @@ const FeaturedImage = styled.img`
     width: 90%;
   }
 
+  &.hiro {
+    margin-bottom: -150px;
+  }
+
   &.near-dev {
     margin-bottom: -150px;
   }

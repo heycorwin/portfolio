@@ -94,8 +94,70 @@
       }
     },
     {
-      "id": "kit",
+      "id": "hiro",
       "numeral": "02",
+      "title": "hiro",
+      "summary": "The Hiro Platform offers developers building on the Stacks Protocol a unified experience for API key management, custom webhooks for real-time indexing, and deep analytics for smart-contract based applications.",
+      "overview": "<p>Early developers building on the Stacks Protocol were forced to assemble their own infrastructure before writing a line of product code: running nodes, polling for chain state, and stitching together services just to get an application off the ground.</p><p>The Hiro Platform consolidates that infrastructure into a single unified experience. Developers can provision and manage access to the Stacks API, configure webhooks to react to on-chain events, and monitor the health and usage of the services their applications depend on.</p><p>I lead product and design for the platform, partnering closely with Hiro’s Engineering and DevOps teams to shape the end-to-end developer workflow: how projects are created, how credentials are issued and scoped, how webhooks are authored and debugged, and how observability is made legible once an application is live in production.</p>",
+      "role": "Staff Product Designer",
+      "team": "Hiro",
+      "tags": [
+        "UI / UX",
+        "Design Systems",
+        "Prototyping",
+        "Product Management",
+        "Developer Experience"
+      ],
+      "projectImages": [
+        {
+          "src": "/images/hiro/chainhook-details.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-configure.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-deliveries.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-usage.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/icons.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "light",
+          "theme": "dark"
+        }
+      ],
+      "featuredImage": {
+        "src": "/images/hiro/spot.png",
+        "alt": "PLACEHOLDER — replace with the Hiro Platform spot image"
+      }
+    },
+    {
+      "id": "kit",
+      "numeral": "03",
       "title": "kit",
       "summary": "Building on the success of the platform's first web-based crypto wallet, Kit aimed to offer a more secure and refined user experience to the users of NEAR Protocol.",
       "overview": "<p>Before the official launch of the NEAR Protocol in 2020, the team at NEAR Inc. prepared the protocol's first crypto wallet, NEAR Wallet, for use on the live network.</p><p>With a focus on simplicity and accessibility, NEAR Wallet was designed to be accessible via web browsers, and facilitated the creation of millions of NEAR accounts during its lifespan, as well as activities critical to the network such as token staking and delegation.</p><p>As the platform matured and looked for ways to decentralize ownership of its core infrastructure, it explored a rebrand and spin-out of the NEAR Wallet product from the core protocol team.</p><p>Kit was conceptualized, prototyped and planned as an evolution of NEAR’s first crypto wallet, offering a greater degree of security via its implementation as a browser extension, and a more refined user experience.</p>",
@@ -157,7 +219,7 @@
     },
     {
       "id": "fora",
-      "numeral": "03",
+      "numeral": "04",
       "title": "fora",
       "summary": "As an evolution of the Bounties Network, fora would be a center for community-driven initiatives, decentralized collaboration, and incentivized action.",
       "overview": "<p>The Bounties Network was one of the first projects built on the Ethereum platform to formally experiment with crypto incentives for driving community engagement, providing new ways for individuals to earn for their contributions and supporting project owners to source talent from an emerging decentralized workforce.</p><p>After a series of successful experiments in partnership with teams like UNICEF Innovation, the team at Bounties Network looked to evolve the platform from a white-label testing environment into a fully fledged community hub where people from all over the web could share about their initiatives, collaborate, incentivize action, and earn for their participation. This next evolution was branded \"fora\".</p>",
