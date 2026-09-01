@@ -78,6 +78,12 @@ const FeaturedImageContainer = styled.div`
       }
     }
   }
+
+  &.hiro {
+    img {
+      top: var(--spacing-32);
+    }
+  }
 `;
 
 const ProjectSummary = styled.div`

@@ -1,17 +1,91 @@
 {
   "projects": [
     {
-      "id": "near-dev",
+      "id": "hiro",
       "numeral": "01",
+      "title": "hiro",
+      "summary": "The Hiro Platform offers developers building on the Stacks Protocol a unified experience for API key management, custom webhooks for real-time indexing, and deep analytics for smart-contract based applications.",
+      "overview": "<p>Early developers building on the Stacks Protocol were forced to assemble their own infrastructure before writing a line of product code: running nodes, polling for chain state, and stitching together services just to get an application off the ground.</p><p>The Hiro Platform consolidates that infrastructure into a single unified experience. Developers can provision and manage access to the Stacks API, configure webhooks to react to on-chain events, and monitor the health and usage of the services their applications depend on.</p><p>I lead product and design for the platform, partnering closely with Hiro’s Engineering and DevOps teams to shape the end-to-end developer workflow: how projects are created, how credentials are issued and scoped, how webhooks are authored and debugged, and how observability is made legible once an application is live in production.</p>",
+      "role": "Product & Design Owner",
+      "team": "Hiro",
+      "tags": [
+        "User Research",
+        "UI / UX",
+        "Design Systems",
+        "Prototyping",
+        "Product Management",
+        "Developer Experience",
+        "Frontend Development"
+      ],
+      "projectImages": [
+        {
+          "src": "/images/hiro/chainhook-index.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-select-events.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-details-summary.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-details-performance.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/usage.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/icons.png",
+          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "width": "full",
+          "position": "center",
+          "shadow": "",
+          "theme": "dark"
+        }
+      ],
+      "featuredImage": {
+        "src": "/images/hiro/spot.png",
+        "alt": "PLACEHOLDER — replace with the Hiro Platform spot image"
+      }
+    },
+    {
+      "id": "near-dev",
+      "numeral": "02",
       "title": "near.dev",
       "summary": "The NEAR Developer Network was designed to provide a resource-rich and community-oriented experience to engage and support a growing developer ecosystem.",
       "overview": "<p>Exploring, onboarding to, and building on a new technology platform comes with a whole host of challenges for new and experienced developers alike. Regardless of the framework or platform, software developers considering the use of a new technology for their own applications often share a set of distinct needs:</p><ol><li>Ways to effectively evaluate existing applications in order to judge the platform's potential.</li><li>Practical avenues for hands-on learning to help them adapt to the essential developer experience.</li><li>High-quality developer tools and resources aimed at education, inspiring new ideas, and accelerating development.</li><li>Reliable and responsive support for when they inevitably encounter challenges throughout their development journey.</li></ol><p>These insights inspired the team at Pagoda to design a new resource-rich and community-oriented experience to engage and support the developers of the NEAR Protocol ecosystem.</p>",
       "role": "Lead Designer",
       "team": "Pagoda",
       "tags": [
+        "Product Management",
         "User Research",
-        "UI / UX",
         "Prototyping",
+        "Design Systems",
+        "UI / UX",
         "Front-End Development"
       ],
       "projectImages": [
@@ -91,76 +165,6 @@
       "featuredImage": {
         "src": "/images/near-dev/spot.png",
         "alt": ""
-      }
-    },
-    {
-      "id": "hiro",
-      "numeral": "02",
-      "title": "hiro",
-      "summary": "The Hiro Platform offers developers building on the Stacks Protocol a unified experience for API key management, custom webhooks for real-time indexing, and deep analytics for smart-contract based applications.",
-      "overview": "<p>Early developers building on the Stacks Protocol were forced to assemble their own infrastructure before writing a line of product code: running nodes, polling for chain state, and stitching together services just to get an application off the ground.</p><p>The Hiro Platform consolidates that infrastructure into a single unified experience. Developers can provision and manage access to the Stacks API, configure webhooks to react to on-chain events, and monitor the health and usage of the services their applications depend on.</p><p>I lead product and design for the platform, partnering closely with Hiro’s Engineering and DevOps teams to shape the end-to-end developer workflow: how projects are created, how credentials are issued and scoped, how webhooks are authored and debugged, and how observability is made legible once an application is live in production.</p>",
-      "role": "Staff Product Designer",
-      "team": "Hiro",
-      "tags": [
-        "UI / UX",
-        "Design Systems",
-        "Prototyping",
-        "Product Management",
-        "Developer Experience"
-      ],
-      "projectImages": [
-        {
-          "src": "/images/hiro/chainhook-index.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
-          "src": "/images/hiro/chainhook-select-events.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
-          "src": "/images/hiro/chainhook-details-summary.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
-          "src": "/images/hiro/chainhook-details-performance.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
-          "src": "/images/hiro/usage.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
-          "src": "/images/hiro/icons.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
-          "width": "full",
-          "position": "center",
-          "shadow": "",
-          "theme": "dark"
-        }
-      ],
-      "featuredImage": {
-        "src": "/images/hiro/spot.png",
-        "alt": "PLACEHOLDER — replace with the Hiro Platform spot image"
       }
     },
     {

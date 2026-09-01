@@ -104,7 +104,7 @@ const Overview = styled.section`
   grid-template-columns: 1.5fr 1fr;
   grid-row-gap: var(--spacing-32);
   width: 100%;
-  margin: var(--spacing-96) auto var(--spacing-48);
+  margin: var(--spacing-64) auto var(--spacing-48);
   padding: var(--spacing-16);
 
   @media (min-width: 768px) {
