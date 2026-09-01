@@ -20,7 +20,7 @@
       "projectImages": [
         {
           "src": "/images/hiro/chainhook-index.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -28,7 +28,7 @@
         },
         {
           "src": "/images/hiro/chainhook-select-events.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -36,7 +36,7 @@
         },
         {
           "src": "/images/hiro/chainhook-details-summary.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -44,7 +44,7 @@
         },
         {
           "src": "/images/hiro/chainhook-details-performance.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -52,7 +52,7 @@
         },
         {
           "src": "/images/hiro/usage.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -60,16 +60,16 @@
         },
         {
           "src": "/images/hiro/icons.png",
-          "alt": "PLACEHOLDER — replace with a Hiro Platform screenshot",
+          "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
-          "shadow": "",
+          "shadow": "none",
           "theme": "dark"
         }
       ],
       "featuredImage": {
         "src": "/images/hiro/spot.png",
-        "alt": "PLACEHOLDER — replace with the Hiro Platform spot image"
+        "alt": "PLACEHOLDER ALT TEXT"
       }
     },
     {
