@@ -11,6 +11,9 @@
 # production
 /build
 
+# conductor
+.conductor/settings.local.toml
+
 # misc
 .DS_Store
 .env.local
