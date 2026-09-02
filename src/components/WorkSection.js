@@ -8,7 +8,7 @@ const FeaturedWork = styled.section`
   flex-direction: column;
   margin: 0 auto;
   gap: var(--spacing-128);
-  padding: var(--spacing-64) 0;
+  padding: var(--spacing-96) 0 var(--spacing-64);
 
   @media (min-width: 768px) {
     gap: var(--spacing-32);
@@ -49,7 +49,7 @@ const FeaturedImageContainer = styled.div`
   height: 100vw;
   position: relative;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow: visible;
   margin-bottom: -50px;
 
   @media (min-width: 768px) {
@@ -59,7 +59,6 @@ const FeaturedImageContainer = styled.div`
 
   @media (min-width: 1200px) {
     width: 60%;
-    overflow: visible;
   }
 
   img {
@@ -81,7 +80,11 @@ const FeaturedImageContainer = styled.div`
 
   &.hiro {
     img {
-      top: var(--spacing-32);
+      
+      @media (min-width: 768px) {
+        width: 90%;
+        margin-top: var(--spacing-56);
+      }
     }
   }
 `;
