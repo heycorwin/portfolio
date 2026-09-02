@@ -71,7 +71,7 @@ const FeaturedImage = styled.img`
   }
 
   &.hiro {
-    margin-bottom: -150px;
+    margin-bottom: -200px;
   }
 
   &.near-dev {

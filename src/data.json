@@ -19,22 +19,6 @@
       ],
       "projectImages": [
         {
-          "src": "/images/hiro/chainhook-index.png",
-          "alt": "PLACEHOLDER ALT TEXT",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
-          "src": "/images/hiro/chainhook-select-events.png",
-          "alt": "PLACEHOLDER ALT TEXT",
-          "width": "full",
-          "position": "center",
-          "shadow": "dark",
-          "theme": "light"
-        },
-        {
           "src": "/images/hiro/chainhook-details-summary.png",
           "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
@@ -52,6 +36,22 @@
         },
         {
           "src": "/images/hiro/usage.png",
+          "alt": "PLACEHOLDER ALT TEXT",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-select-events.png",
+          "alt": "PLACEHOLDER ALT TEXT",
+          "width": "full",
+          "position": "center",
+          "shadow": "dark",
+          "theme": "light"
+        },
+        {
+          "src": "/images/hiro/chainhook-index.png",
           "alt": "PLACEHOLDER ALT TEXT",
           "width": "full",
           "position": "center",
@@ -238,6 +238,7 @@
       "role": "Design Co-Founder",
       "team": "Bounties Network",
       "tags": [
+        "User Research",
         "UI / UX",
         "Brand & Identity",
         "Design Systems",
