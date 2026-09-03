@@ -132,6 +132,11 @@ const Overview = styled.section`
     @media (min-width: 768px) {
       grid-column: 1 / 2;
     }
+
+    a {
+      color: var(--violet-200);
+      text-decoration: none;
+    }
   }
 
   p:not(:last-child) {

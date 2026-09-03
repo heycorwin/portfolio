@@ -20,7 +20,7 @@
       "projectImages": [
         {
           "src": "/images/hiro/chainhook-details-summary.png",
-          "alt": "PLACEHOLDER ALT TEXT",
+          "alt": "A webhook observability view showing trigger volume, success rate, and failure counts over time.",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -28,7 +28,7 @@
         },
         {
           "src": "/images/hiro/chainhook-details-performance.png",
-          "alt": "PLACEHOLDER ALT TEXT",
+          "alt": "A webhook observability view showing delivery latency, block lag, and webhook response times.",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -36,7 +36,7 @@
         },
         {
           "src": "/images/hiro/usage.png",
-          "alt": "PLACEHOLDER ALT TEXT",
+          "alt": "An API usage dashboard showing daily Stacks and Bitcoin API request volume against plan limits.",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -44,7 +44,7 @@
         },
         {
           "src": "/images/hiro/chainhook-select-events.png",
-          "alt": "PLACEHOLDER ALT TEXT",
+          "alt": "A webhook creation flow for filtering addresses, selecting events, and previewing the webhook code and payload.",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -52,7 +52,7 @@
         },
         {
           "src": "/images/hiro/chainhook-index.png",
-          "alt": "PLACEHOLDER ALT TEXT",
+          "alt": "A list of webhooks showing endpoint URLs, status, and trigger counts for each webhook.",
           "width": "full",
           "position": "center",
           "shadow": "dark",
@@ -60,7 +60,7 @@
         },
         {
           "src": "/images/hiro/icons.png",
-          "alt": "PLACEHOLDER ALT TEXT",
+          "alt": "Custom icons representing platform access, smart contract code, and the Stacks testnet faucet.",
           "width": "full",
           "position": "center",
           "shadow": "none",
@@ -69,7 +69,7 @@
       ],
       "featuredImage": {
         "src": "/images/hiro/spot.png",
-        "alt": "PLACEHOLDER ALT TEXT"
+        "alt": "A layered composition of dashboard components showing event configuration and analytics."
       }
     },
     {
@@ -77,7 +77,7 @@
       "numeral": "02",
       "title": "near.dev",
       "summary": "The NEAR Developer Network was designed to provide a resource-rich and community-oriented experience to engage and support a growing developer ecosystem.",
-      "overview": "<p>Exploring, onboarding to, and building on a new technology platform comes with a whole host of challenges for new and experienced developers alike. Regardless of the framework or platform, software developers considering the use of a new technology for their own applications often share a set of distinct needs:</p><ol><li>Ways to effectively evaluate existing applications in order to judge the platform's potential.</li><li>Practical avenues for hands-on learning to help them adapt to the essential developer experience.</li><li>High-quality developer tools and resources aimed at education, inspiring new ideas, and accelerating development.</li><li>Reliable and responsive support for when they inevitably encounter challenges throughout their development journey.</li></ol><p>These insights inspired the team at Pagoda to design a new resource-rich and community-oriented experience to engage and support the developers of the NEAR Protocol ecosystem.</p>",
+      "overview": "<p>Exploring, onboarding, and building on a new technology platform comes with a whole host of challenges for new and experienced developers. Regardless of the framework or platform, those considering the use of a new technology often share a set of distinct needs:</p><ol><li>Ways to effectively evaluate existing applications in order to judge the platform's potential.</li><li>Practical avenues for hands-on learning getting familiar with the essential developer experience.</li><li>High-quality tools and resources aimed at education, inspiring new ideas, and accelerating development.</li><li>Reliable and responsive support for when they encounter challenges throughout their development journey.</li></ol><p>These motivations led the team at Pagoda to build a new resource-rich and community-oriented experience to engage and support the developers of the NEAR Protocol ecosystem. I partnered with executive leadership to lead design strategy and end-to-end design, piloting a small team of designers, engineers and developer advocates.</p>",
       "role": "Lead Designer",
       "team": "Pagoda",
       "tags": [
@@ -171,8 +171,8 @@
       "id": "kit",
       "numeral": "03",
       "title": "kit",
-      "summary": "Building on the success of the platform's first web-based crypto wallet, Kit aimed to offer a more secure and refined user experience to the users of NEAR Protocol.",
-      "overview": "<p>Before the official launch of the NEAR Protocol in 2020, the team at NEAR Inc. prepared the protocol's first crypto wallet, NEAR Wallet, for use on the live network.</p><p>With a focus on simplicity and accessibility, NEAR Wallet was designed to be accessible via web browsers, and facilitated the creation of millions of NEAR accounts during its lifespan, as well as activities critical to the network such as token staking and delegation.</p><p>As the platform matured and looked for ways to decentralize ownership of its core infrastructure, it explored a rebrand and spin-out of the NEAR Wallet product from the core protocol team.</p><p>Kit was conceptualized, prototyped and planned as an evolution of NEAR’s first crypto wallet, offering a greater degree of security via its implementation as a browser extension, and a more refined user experience.</p>",
+      "summary": "Building on the success of NEAR Protocol's first web-based crypto wallet, Kit aimed to offer a more secure and refined experience for users of the platform.",
+      "overview": "<p>Before the official launch of the NEAR Protocol in 2020, NEAR's core protocol team spent the year prior building NEAR Wallet: a web-based crypto wallet utility meant to serve the protocol's first wave of new users and investors.</p><p>With a focus on simplicity and accessibility, NEAR Wallet was designed to be accessible via web browsers, and facilitated the creation of millions of NEAR accounts during its lifespan, as well as activities critical to the network such as token staking and delegation.</p><p>When the time came for the NEAR Wallet team to spin out and operate independently, I led the end-to-end design of Kit: a rebranded evolution of NEAR’s first crypto wallet that offered a more refined user experience and a greater degree of security via its implementation as a native browser extension.</p>",
       "role": "Lead Designer",
       "team": "Near Inc.",
       "tags": [
@@ -233,8 +233,8 @@
       "id": "fora",
       "numeral": "04",
       "title": "fora",
-      "summary": "As an evolution of the Bounties Network, fora would be a center for community-driven initiatives, decentralized collaboration, and incentivized action.",
-      "overview": "<p>The Bounties Network was one of the first projects built on the Ethereum platform to formally experiment with crypto incentives for driving community engagement, providing new ways for individuals to earn for their contributions and supporting project owners to source talent from an emerging decentralized workforce.</p><p>After a series of successful experiments in partnership with teams like UNICEF Innovation, the team at Bounties Network looked to evolve the platform from a white-label testing environment into a fully fledged community hub where people from all over the web could share about their initiatives, collaborate, incentivize action, and earn for their participation. This next evolution was branded \"fora\".</p>",
+      "summary": "As the Bounties Network matured beyond a set of experiments testing new use cases for crypto payments & incentives, it evolved into fora: a platform for community-driven initiatives, decentralized collaboration, and incentivized action.",
+      "overview": "<p>The Bounties Network (a project by <a href=\"https://consensys.io/\" target=\"_blank\">ConsenSys</a>) was one of the first projects built on the Ethereum platform to formally experiment with crypto incentives for driving community engagement. It provided new ways for community members to earn for their contributions and supported project owners looking to source talent from an emerging decentralized workforce.</p><p>After a series of successful experiments in partnership with teams like UNICEF Innovation, the team at Bounties Network grew the platform from a white-label testing environment into a more robust community hub dubbed \"fora\", where people from all over the web could share about their initiatives, collaborate, incentivize action, and earn for their participation.</p><p>As Design Co-Founder, I owned everything from User Research and UX / Interface design to branding & identity, and even a good chunk of the front-end – taking the project from an experiment to a fully fledged product and winning a \"Best Overall User Experience\" award from panelists at Ethereum Devcon.</p>",
       "role": "Design Co-Founder",
       "team": "Bounties Network",
       "tags": [
